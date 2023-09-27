@@ -14,38 +14,44 @@
     include("include/menu.php");
 
     ?>
+
     <!-- INICIO DE CONTENIDO -->
     <div class="main-content">
         <div class="page-content">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
+                        <h4>Registrar Usuarios</h4>
                         <div class="card">
                             <div class="card-body">
-                                <form action="" method="POST">
+                                <form action="operaciones/registrar_usuario.php" method="POST">
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" > DNI: </label>
-                                        <input type="number" name="dni" class="form-control col-lg-4 col-md-4 col-sm-12">
+                                        <input type="number" name="dni" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Apellidos y Nombres:</label>
-                                        <input type="text" class="form-control col-lg-10 col-md-10 col-sm-12" >
+                                        <input type="text" name="ape_nom" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Correo:</label>
-                                        <input type="email" class="form-control col-lg-10 col-md-10 col-sm-12" >
+                                        <input type="email" name="correo" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Telefono:</label>
-                                        <input type="number" class="form-control col-lg-4 col-md-4 col-sm-12" >
+                                        <input type="number" name="telefono" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Direccion:</label>
-                                        <input type="text" class="form-control col-lg-10 col-md-10 col-sm-12" >
+                                        <input type="text" name="direccion" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Fecha de Nacimiento:</label>
-                                        <input type="date" class="form-control col-lg-4 col-md-4 col-sm-12" >
+                                        <input type="date" name="fecha_naci" class="form-control col-lg-4 col-md-4 col-sm-12" required>
+                                    </div>
+                                    <div class="form-group row">
+                                    <label class="col-lg-2 col-md-2 col-sm-12"></label>
+                                        <button type="submit" class="btn btn-danger">Guardar</button>
                                     </div>
                                 </form>
                             </div>
