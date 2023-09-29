@@ -1,4 +1,5 @@
 <?php
+include("../include/conexion.php");
 //recibir la informacion
 
 $dni=$_POST['dni'];
@@ -16,5 +17,16 @@ echo $correo."<br>";
 echo $telefono."<br>";
 echo $direccion."<br>";
 echo $fecha_naci."<br>";
+
+$consulta="INSERT INTO usuario(dni, apellidos_nombres, correo, telefono, direccion, fecha_nacimiento, password, activo, reset_password, token_password)
+VALUES ('$dni', '$ape_nom', '$correo', '$telefono', '$direccion', '$fecha_naci', '$dni',1,0,'')";
+
+$ejecutar= mysqli_query($conexion, $consulta);
+
+if ($ejecutar) {
+    echo "Registro Exitoso";
+}else {
+    echo "Registro Fallido";
+}
 
 ?>

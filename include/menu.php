@@ -45,28 +45,28 @@
                         <a href="" class="waves-effect"><i class="feather-home"></i>Inicio</a>
                     </li>
                     <li>
-                        <a href="" class="waves-effect"><i class="feather-shopping-bag"></i>Ventas</a>
+                        <a href="ventas.php" class="waves-effect"><i class="feather-shopping-bag"></i>Ventas</a>
                     </li>
                     <li>
-                        <a href="" class="waves-effect"><i class="feather-shopping-bag"></i>Productos</a>
+                        <a href="productos.php" class="waves-effect"><i class="feather-shopping-bag"></i>Productos</a>
                     </li>
                     <li>
-                        <a href="" class="waves-effect"><i class="feather-users"></i>Usuarios</a>
+                        <a href="formulario.php" class="waves-effect"><i class="feather-users"></i>Usuarios</a>
                     </li>
                     <li>
-                        <a href="" class="waves-effect"><i class="feather-truck"></i>Pedidos</a>
+                        <a href="pedidos.php" class="waves-effect"><i class="feather-truck"></i>Pedidos</a>
                     </li>
                     <li>
                         <a href="" class="waves-effect"><i class="dripicons-gear"></i>Devoluciones</a>
                     </li>
                     <li>
-                        <a href="" class="waves-effect"><i class="feather-user-plus"></i>Clientes</a>
+                        <a href="clientes.php" class="waves-effect"><i class="feather-user-plus"></i>Clientes</a>
                     </li>
                     <li>
                         <a href="" class="waves-effect"><i class="dripicons-graph-line"></i>Reportes</a>
                     </li>
                     <li>
-                        <a href="" class="waves-effect"><i class="fas fa-users"></i>Proveedores</a>
+                        <a href="proveedores.php" class="waves-effect"><i class="fas fa-users"></i>Proveedores</a>
                     </li>
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect"><i
