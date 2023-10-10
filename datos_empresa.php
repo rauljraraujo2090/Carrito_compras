@@ -9,7 +9,7 @@
     <link href="plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <?php 
+<?php 
     // Lenguaje en php
     include("include/menu.php");
 
@@ -21,7 +21,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h4>Registrar Usuarios</h4>
+                        <h4>Datos de la Empresa</h4>
                         <div class="card">
                             <div class="card-body">
                                 <form action="operaciones/registrar_usuario.php" method="POST">

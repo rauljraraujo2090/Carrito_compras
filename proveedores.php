@@ -45,10 +45,28 @@
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Direccion:</label>
                                         <input type="text" name="direccion" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
+                                    <!---
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Metodo de pago:</label>
                                         <input type="text" name="direccion" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
+
+                                    --->
+
+                                     <div class="form-group row">
+                                    <label class="col-lg-2 col-md-2 col-sm-12">Metodo de Pago</label>
+                               
+                                    <select name="stock" class="form-control col-lg-4 col-md-4 col-sm-12" required>
+                                    <option>----Seleccione El metodo de pago----</option>
+                                    <option>BCP</option>
+                                     <option>iNTERBANCK</option>
+                                     <option>BVA</option>
+                                      
+  
+                                      
+                                    </select>
+                                 </div>
+
                                     <div class="form-group row">
                                     <label class="col-lg-2 col-md-2 col-sm-12"></label>
                                         <button type="submit" class="btn btn-danger">Guardar</button>

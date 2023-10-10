@@ -62,6 +62,25 @@
                     <li>
                         <a href="" class="waves-effect"><i class="dripicons-gear"></i>Devoluciones</a>
                     </li>
+
+
+
+
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow waves-effect"><i
+                                    class="feather-align-justify ext-white"></i><span class="text-white">Gestionar Empresa</span></a>
+                           <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="datos_empresa.php">Datos de la Empresa </a></li>
+                                <li><a href="detalle_pedido.php">Detalles  del Pedido</a></li>
+                                <li><a href="detalle_venta.php">Detalles de la venta</a></li>
+                            </ul>
+                    </li>
+
+
+
+
+
                     <li>
                         <a href="clientes.php" class="waves-effect"><i class="feather-user-plus"></i>Clientes</a>
                     </li>

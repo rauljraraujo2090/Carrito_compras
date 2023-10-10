@@ -33,10 +33,31 @@
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Fecha de entrega:</label>
                                         <input type="date" name="fecha_naci" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
+
+                                    <!---
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Metodo de pago:</label>
                                         <input type="text" name="direccion" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
+
+                                    --->
+
+
+                                <div class="form-group row">
+                                    <label class="col-lg-2 col-md-2 col-sm-12">Metodo de Pago</label>
+                               
+                                    <select name="stock" class="form-control col-lg-4 col-md-4 col-sm-12" required>
+                                    <option>----Seleccione El metodo de pago----</option>
+                                    <option>BCP</option>
+                                     <option>iNTERBANCK</option>
+                                     <option>BVA</option>
+                                      
+  
+                                      
+                                    </select>
+                                 </div>
+
+
                                     <div class="form-group row">
                                         <label class="col-lg-2 col-md-2 col-sm-12" >Monto:</label>
                                         <input type="number" name="telefono" class="form-control col-lg-4 col-md-4 col-sm-12" required>
