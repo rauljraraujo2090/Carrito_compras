@@ -26,28 +26,36 @@
                             <div class="card-body">
                                 <form action="operaciones/registrar_usuario.php" method="POST">
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" > Nombre de Producto: </label>
-                                        <input type="text" name="dni" class="form-control col-lg-4 col-md-4 col-sm-12" required>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" > Codigo: </label>
+                                        <input type="number" name="dni" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Codigo de Producto:</label>
-                                        <input type="number" name="ape_nom" class="form-control col-lg-10 col-md-10 col-sm-12" required>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Descripción:</label>
+                                        <input type="text" name="ape_nom" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Color:</label>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Detalle:</label>
                                         <input type="text" name="correo" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Telefono:</label>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Precio de Compra:</label>
                                         <input type="number" name="telefono" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Direccion:</label>
-                                        <input type="text" name="direccion" class="form-control col-lg-10 col-md-10 col-sm-12" required>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Precio de Venta:</label>
+                                        <input type="number" name="telefono" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Fecha de Nacimiento:</label>
-                                        <input type="date" name="fecha_naci" class="form-control col-lg-4 col-md-4 col-sm-12" required>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Stock:</label>
+                                        <input type="text" name="fecha_naci" class="form-control col-lg-4 col-md-4 col-sm-12" required>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Estado:</label>
+                                        <input type="text" name="ape_nom" class="form-control col-lg-10 col-md-10 col-sm-12" required>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Imagen:</label>
+                                        <input type="file" name="ape_nom" class="form-control col-lg-10 col-md-10 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
                                     <label class="col-lg-2 col-md-2 col-sm-12"></label>

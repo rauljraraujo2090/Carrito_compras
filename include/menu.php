@@ -51,6 +51,9 @@
                         <a href="productos.php" class="waves-effect"><i class="feather-shopping-bag"></i>Productos</a>
                     </li>
                     <li>
+                        <a href="categoria.php" class="waves-effect"><i class="feather-shopping-bag"></i>Categorias</a>
+                    </li>
+                    <li>
                         <a href="formulario.php" class="waves-effect"><i class="feather-users"></i>Usuarios</a>
                     </li>
                     <li>
@@ -66,13 +69,13 @@
                         <a href="proveedores.php" class="waves-effect"><i class="fas fa-users"></i>Proveedores</a>
                     </li>
                     <li>
-                        <a href="" class="waves-effect"><i class="dripicons-graph-line"></i>Reportes</a>
+                        <a href="reporte.php" class="waves-effect"><i class="dripicons-graph-line"></i>Reportes</a>
                     </li>
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect"><i
                                     class="dripicons-gear ext-white"></i><span class="text-white">Mantenimiento</span></a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="tables-basic.html">Sistema</a></li>
+                                <li><a href="sistema.php">Sistema</a></li>
                                 <li><a href="tables-datatables.html">Roles</a></li>
                                 <li><a href="tables-datatables.html">Datos de la empresa</a></li>
                             </ul>

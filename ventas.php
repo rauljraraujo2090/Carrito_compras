@@ -26,27 +26,19 @@
                             <div class="card-body">
                                 <form action="operaciones/registrar_usuario.php" method="POST">
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" > DNI: </label>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" > Serie de Venta: </label>
                                         <input type="number" name="dni" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Apellidos y Nombres:</label>
-                                        <input type="text" name="ape_nom" class="form-control col-lg-10 col-md-10 col-sm-12" required>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" > Numero de Venta: </label>
+                                        <input type="number" name="dni" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Correo:</label>
-                                        <input type="email" name="correo" class="form-control col-lg-10 col-md-10 col-sm-12" required>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Telefono:</label>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Monto total:</label>
                                         <input type="number" name="telefono" class="form-control col-lg-4 col-md-4 col-sm-12" required>
-                                    </div>
+                                    </div>                                    
                                     <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Direccion:</label>
-                                        <input type="text" name="direccion" class="form-control col-lg-10 col-md-10 col-sm-12" required>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-lg-2 col-md-2 col-sm-12" >Fecha de Nacimiento:</label>
+                                        <label class="col-lg-2 col-md-2 col-sm-12" >Fecha hora de venta:</label>
                                         <input type="date" name="fecha_naci" class="form-control col-lg-4 col-md-4 col-sm-12" required>
                                     </div>
                                     <div class="form-group row">
